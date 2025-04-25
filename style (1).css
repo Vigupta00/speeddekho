@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #fff;
+  color: #000;
+  transition: background 0.3s, color 0.3s;
+}
+body.dark {
+  background-color: #121212;
+  color: #fff;
+}
+header {
+  background: #333;
+  color: #fff;
+  padding: 1em;
+}
+.speedometer img {
+  width: 150px;
+  margin: 20px auto;
+}
+button {
+  margin: 10px;
+  padding: 10px 15px;
+}

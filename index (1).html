@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SpeedDekho</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app" id="app">
+    <header>
+      <h1>SpeedDekho</h1>
+      <button onclick="toggleMode()">🌙</button>
+    </header>
+    <div id="location">Loading location...</div>
+    <div class="speedometer">
+      <img id="animation" src="bike.gif" alt="animation" />
+      <div class="speed">Speed: <span id="speedValue">0</span> km/h</div>
+    </div>
+    <div class="modes">
+      <button onclick="setMode('bike')">Bike</button>
+      <button onclick="setMode('car')">Car</button>
+      <button onclick="setMode('train')">Train</button>
+      <button onclick="setMode('walk')">Walk</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
